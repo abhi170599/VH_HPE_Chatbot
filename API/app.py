@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify, render_template, redirect
 import os
+import json
 from werkzeug.security import generate_password_hash, check_password_hash 
 from flask_jwt_extended import (
 
@@ -47,9 +48,22 @@ arr  = model.predict(vect)
 print(arr)
 
 print("\n\n................ Loaded Model ..........................")
+
+""" reading the question file """
+
+question_file = open('Utils/dataset.json')
+questions = json.load(question_file)
+
+print("\n\n.................. Loaded the Questions ...................")
+
+SUPPORTED_LANGUAGES = ['en','fr','ta','hi']
+
+
 """ setting up the JWT """
 app.config['JWT_SECRET_KEY'] = 'abhisheksagnikyashrahul'
 jwt = JWTManager(app)
+
+
 
 @app.teardown_appcontext
 def shutdown_session(exception=None):
@@ -252,10 +266,12 @@ def get_response():
     from the model and create a new message
     """
     
-    responses  = get_response_from_bot(message_eng,model,bag,labels,question_dict)
+    responses,similar,context  = get_response_from_bot(message_eng,model,bag,labels,question_dict,2,questions)
     #summarized = summarize(responses)
 
-    responses = eng_to_lang(responses,lang)
+    if lang in SUPPORTED_LANGUAGES:
+        responses = eng_to_lang(responses,lang)
+        
     new_message = Message(message=responses,chat=chat)
     new_message.user = user                                    #the responses are from chatbot
     new_message.from_bot = 1
@@ -269,6 +285,8 @@ def get_response():
         return jsonify({
           
         "message":responses,
+        "similar":similar,
+        "context":context,
         "status" : "success"
 
         })

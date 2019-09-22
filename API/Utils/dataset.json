@@ -1,0 +1,143 @@
+{
+
+       "general"     : ["What are the advantages of HPE OneView",
+                        "What is a software-defined approach to lifecycle management",
+                        "Can I customize functionality and integrate HPE OneView with my existing tools and environment",
+                        "Does HPE provide integration kits for customers who do not wish to develop their own",
+                        "Is HPE OneView a refresh to existing HPE infrastructure management tools or a brand-new design",
+                        "What capabilities does HPE OneView offer",
+                        "How is HPE OneView licensed"
+                        ],
+       
+       "server"       : ["What server platforms are supported by HPE OneView 5.0",
+                         "Can I create a template from an existing profile",
+                         "Does HPE OneView support granular access control",
+                         "What is two-factor authentication and is it supported by HPE OneView",
+                         "What is an SPP",
+                         "Does HPE OneView use SPPs to update the firmware and driver of servers", 
+                         "Does HPE OneView support external repository to store SPPs",
+                         "Can you schedule the activation of firmware and OS driver updates", 
+                         "Does HPE OneView allow online profile configuration changes", 
+                         "What tools HPE OneView use for Firmware and Driver updates",
+                         "How does HPE OneView handle Firmware and Driver updates", 
+                         "Does HPE OneView support configuration of iLO settings", 
+                         "What are the latest enhancements with HPE OneView Remote support", 
+                         "What kind of cluster profile support is offered by HPE OneView", 
+                         "Can I view DIMM inventory with HPE OneView", 
+                         "Does HPE OneView support IPv6",
+                         "Does HPE OneView provide firmware compliance checking"
+                         ],
+                         
+        "storage"      : [ "Does HPE OneView support HPE 3PAR StoreServ", 
+             "Does HPE OneView support HPE Nimble Storage", 
+            "If Flat SAN is used, can you see FC bandwidth usage data", 
+            "What is the HPE OneView support for Brocade FC ICM", 
+            "Does HPE OneView support automated volume provisioning", 
+             "What can I use for Brocade SAN automated zoning with BNA support going away", 
+             "Does HPE OneView support HPE StoreVirtual 3200 series", 
+             "Does HPE OneView support StoreVirtual managed nodes", 
+             "Does HPE OneView support automated SAN Storage volume provisioning for DL/Apollo Servers",
+             "Does HPE OneView support Brocade SAN storage" 
+        ],
+        
+        
+        "network"      : [ "Can I do a migration from the Virtual Connect Manager to an HPE OneView environment without the need to power off servers", 
+            "How many FlexNIC/FlexHBA per port does the FlexFabric support in HPE OneView", 
+            "What is the integration with the IMC tool",
+            "Does HPE OneView support the B22HP FEX interconnect modules", 
+            "Does HPE OneView support the LACP on s-channels", 
+            "What is an Active/Active configuration",
+            "How does HPE OneView work with HPE switches  What can be done today in terms of management and configuration", 
+            "Can HPE OneView manage the external top-of-rack Cisco (ToR) switch", 
+            "Can HPE OneView manage the external top-of-rack Arista (ToR) switch"
+            ],
+
+
+        "partner"      : ["What is HPE Composable Ecosystem Program",
+            "What Microsoft plug-ins are in the HPE OneView Advanced 5.0 release",
+            "What VMware plug-ins are in the HPE OneView Advanced 5.0 release",
+            "How are the partner integrations licensed for VMware and Microsoft",
+            "How is HPE OneView delivered",
+            "Does HPE OneView replace the need for HPE Systems Insight Manager, HPE Insight Control, and HPE Virtual Connect Enterprise Manager",
+            "How long will Hewlett Packard Enterprise support the current HPE SIM, product", 
+            "Are license upgrades available from Insight Management software to HPE OneView Advanced", 
+            "What support and services are available for HPE OneView", 
+            "How do I get training on HPE OneView"
+           ],
+
+
+        "global"       : ["Can a user access inventory and health status information consolidated by HPE OneView Global Dashboard using an API", 
+            "How does HPE OneView Global Dashboard help customers manage at scale", 
+            "What systems does HPE Global Dashboard support", 
+            "How is HPE OneView Global Dashboard delivered", 
+            "Can I schedule an HPE OneView Global Dashboard report", 
+            "How can I track the assignment of HPE OneView licensed across my data centers", 
+            "Does HPE OneView Global Dashboard support IPv6", 
+            "Does HPE OneView Global Dashboard support interconnect modules",
+            "Does HPE OneView Global Dashboard display remote support status"
+
+        ],
+        
+        
+        "remote"       : ["Does Remote Technician require Remote Support", 
+            "Is there a charge for Remote Technician", 
+            "Is a support case required for Remote Technician", 
+            "Do I need to add firewall rules",
+            "Can I time-box access? Does it time out", 
+            "Will the access be tracked and audited—what somebody did to what resource at what time",
+            "Will keystrokes be captured", 
+            "What is the benefit of this versus using HPE MyRoom for screen sharing", 
+            "Does Remote Technician make it easier to provide support dumps and logs",
+            "Is this technology unique to HPE OneView—how mature is it? How many people are using it", 
+            "Will Remote Technician be available for Image Streamer", 
+            "Is there a terminate remote technician if something is amiss"
+
+          ],
+          
+          
+          "greeting"  : ["Hello",
+                           "Hi",
+                           
+                          
+          "Hi, How is it going",
+            
+          
+          "How are you doing",
+            
+
+          "Nice to meet you.",
+            
+          
+            
+          "How do you do",
+           
+                 
+           
+          "Top of the morning to you!",
+           
+            
+           "What's up?"
+            ]
+          
+}
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
