@@ -6,8 +6,6 @@ HPE OneView 5.0 Chatbot
   * Yash Raj
   * Abhishek Jha
   * Sagnik Pal
-  
-------------------------------------------------
 
 We worked on designing and developing a Closed-Domain Chatbot for answering the content given in 
 Hewlett Packard Enterprise One View 5.0 ( pdf file ).
